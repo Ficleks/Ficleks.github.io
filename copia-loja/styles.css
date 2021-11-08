@@ -1,0 +1,44 @@
+.faixa{
+    display: flex;
+    justify-content: start;
+    background-color:#f2f2f2;
+    width: 100%;
+    height: 100%;
+    padding: 22px;
+    font-family: 'Avenir', Helvetica, sans-serif;
+}
+.topnav{
+    position: fixed;
+    right: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    font-family: 'Avenir', Helvetica, sans-serif;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+#linha-horizontal {
+    width: 100%;
+    border: 1px solid #000;
+}
+.footer{
+    display: flex;
+}
+.container{
+    display: flex;
+    background-color: #F7F6F6;
+    justify-content: center;
+}
+a{
+    font-family: 'Avenir', Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
