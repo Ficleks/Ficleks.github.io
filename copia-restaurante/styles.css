@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Roman";
+    src: url("fonts/Helvetica\ LT\ W01\ Roman.ttf");
+  }
+  @font-face {
+    font-family: "Proxima";
+    src: url("fonts/Proxima\ N\ W01\ Reg.ttf");
+  }
+.faixa{
+    display: flex;
+    background:#362E26 ;
+    justify-content: center;
+    width: 100%;
+    font-family: "Roman", "Bitstream Vera Serif", serif;
+}
+.ulfaixa{
+    list-style: none;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+p{
+    font-family: "Roman", "Bitstream Vera Serif", serif;
+}
+h2{
+    font-family: "Roman", "Bitstream Vera Serif", serif;
+}
+.back1{
+    display: flex;
+    background: url(images/back1.webp) fixed;
+    flex-direction: column;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    min-height: 700px;
+}
+.paraiso{
+    font-size: 172px;
+    font-weight: 400;
+    line-height: 138px;
+    margin-left: 40%;
+    height: 0px;
+    font-family: 'Cookie', cursive;
+    color: white;
+    opacity: 1;
+}
+.brigadeiro{
+    font-family: "Roman", "Bitstream Vera Serif", serif;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 45%;
+    opacity: 1;
+    letter-spacing: 7px;
+}
+.svg1{
+    margin-left: 46%;
+    opacity: 1;
+}
+.backcolor{
+    background: #E78585;
+}
+.back2{
+    background: url(images/back2.webp);
+    color: white;
+    display: flex;
+    width: 100%;
+    min-height: 400px;
+}
+.h2font{
+    font-family: "Proxima", "Bitstream Vera Serif", serif;
+    margin-left: 30%;
+    min-width: 11%;
+    margin-top: 10%;
+    text-align: center;
+}
+.pfont{
+    margin-right: 25%;
+    text-align: left;
+    margin-top: 5%;
+}
+.back3{
+}
+.h2font2{
+    color: #362E26;#605E5E;
+    margin-left: 45%;
+}
+.pfont2{
+    color: #605E5E;
+    text-align: center;
+    max-width: 42%;
+    margin-left: 30%;
+}
+.images3{
+    margin-left: 35%;
+    width: 100%;
+}
