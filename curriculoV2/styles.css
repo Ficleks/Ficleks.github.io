@@ -1,0 +1,194 @@
+/*Parte lateral do curriculo 
+ --------------------------------- */
+.container {
+    background-color: rgba(235.0000011920929, 235.0000011920929, 235.0000011920929, 1);
+    width: 100%;
+    max-width: 23rem;
+    height: 100%;
+    min-height: 3000px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.imagem{
+    width: 100%;
+    max-width: 188px;
+    height: 100%;
+    max-height: 257px;
+    position: absolute;
+    left: 79px;
+    top: 125px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sobre{
+    color: rgba(0, 0, 0, 0.699999988079071);
+    width: 100%;
+    max-width: 183px;
+    height: 100%;
+    max-height: 42px;
+    position: absolute;
+    left: 73px;
+    top: 739px;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 36px;
+    letter-spacing: 0;
+}
+.experiencia{
+    color: rgba(0, 0, 0, 0.699999988079071);
+    width: 100%;
+    max-width: 194px;
+    height: 100%;
+    max-height: 42px;
+    position: absolute;
+    left: 67px;
+    top: 1411px;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 36px;
+    letter-spacing: 0;
+}
+/*Parte de apresentação
+--------------------------------- */
+.nome {
+    width: 1187.85107421875px;
+    height: 146.57894897460938px;
+    position: absolute;
+    left: 400px;
+    top: 98px;
+}
+.felipe{
+    color: rgba(0, 182.00000435113907, 130.0000074505806, 1);
+    width: 100%;
+    max-width: 976px;
+    height: 100%;
+    max-height: 81px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 96px;
+    letter-spacing: 0;
+}
+.alan{
+    color: rgba(0, 116.00000068545341, 99.00000169873238, 1);
+    width: 912.85107421875px;
+    height: 77.53947448730469px;
+    position: absolute;
+    left: 275px;
+    top: 4px;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 96px;
+    letter-spacing: 0;
+}
+.aspirante{
+    color: rgba(0, 0, 0, 1);
+    width: 976.1702270507812px;
+    height: 30.578947067260742px;
+    position: absolute;
+    left: 0px;
+    top: 116px;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 36px;
+    letter-spacing: 0;
+}
+/*Parte de email
+--------------------------------- */
+.email {
+    width: 252px;
+    height: 46px;
+    position: absolute;
+    left: 355px;
+    top: 281px;
+}
+.imagem5 {
+    width: 65px;
+    height: 46px;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+.hotmail {
+    width: 252px;
+    height: 46px;
+    position: absolute;
+    left: 120px;
+    top: 0px;
+    margin: auto;
+}
+.gmail {
+    color: rgba(0, 0, 0, 1);
+    width: 164px;
+    height: 21px;
+    position: absolute;
+    left: 120px;
+    top: 24px;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0;
+}
+/*Parte de localização
+--------------------------------- */
+.loc{
+    width: 272px;
+    height: 38px;
+    position: absolute;
+    left: 355px;
+    top: 344px;
+}
+.imagem6{
+    width: 32px;
+    height: 38px;
+    position: absolute;
+    left: 65px;
+    top: 0px;
+}
+.sp{
+    color: rgba(0, 0, 0, 1);
+    width: 216px;
+    height: 21px;
+    position: absolute;
+    left: 120px;
+    top: 9px;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0;
+}
+/*Parte do número
+--------------------------------- */
+.num{
+    width: 217px;
+    height: 45px;
+    position: absolute;
+    left: 355px;
+    top: 401px;
+}
+.imagem7{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 60px;
+    top: 0px;
+}
+.number{
+    color: rgba(0, 0, 0, 1);
+    width: 155px;
+    height: 28px;
+    position: absolute;
+    left: 120px;
+    top: 8px;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
