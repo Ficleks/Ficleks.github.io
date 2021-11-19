@@ -1,0 +1,38 @@
+body{
+    background-color: burlywood;
+}
+#section-1{
+
+}
+#h1-nome{
+    font-size: 3rem;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#h3-info{
+    font-size: 2rem;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img-perfil{
+    max-width:400px;
+    max-height:400px;
+    border-radius: 200px;
+}
+#section-2{
+
+}
+#h2-hobby{
+    font-size: 2rem;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p-descri{
+    font-size: 1em;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    max-width:200px;
+    max-height:200px;
+}
