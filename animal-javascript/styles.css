@@ -1,0 +1,25 @@
+body{
+    background-image:  url(images/floresta.jpg);
+}
+h1{
+    color: brown;
+    font-family: arial;
+    background-color: burlywood;
+    font-size: 80px;
+}
+h2{
+    color: brown;
+    font-family: arial;
+    background-color: burlywood;
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    font-family: arial;
+}
+a{
+    background-color: white;
+    font-family: arial;
+}
