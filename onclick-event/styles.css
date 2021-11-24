@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+strong{
+    color: red;
+}
+.rating{
+    display: flex;
+    justify-content: space-around;
+}
+.but1{
+    background-color: rgba(238, 255, 0, 0.200);
+}
+.but2{
+    background-color: rgba(238, 255, 0, 0.400);;
+}
+.but3{
+    background-color: rgba(238, 255, 0, 0.600);;
+}
+.but4{
+    background-color: rgba(238, 255, 0, 0.800);;
+}
+.but5{
+    background-color: rgba(238, 255, 0, 1);;
+}
+#rating{
+    margin-top: 30px;
+    text-align: center;
+}
