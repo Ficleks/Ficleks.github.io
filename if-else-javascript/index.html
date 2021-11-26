@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Burguer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Linux Burguer</h1>
+        <form action="dados" method="post">
+            <div id="form">
+                <h2>Opções de Pão</h2>
+                <div>
+                    <label for="pao1">Pão Francês (R$3,00)</label>
+                    <input type="radio" value="pao1" name="tipo-pao" id="pao1">
+                </div>
+                <div>
+                    <label for="pao2">Pão Australiano (R$8,00)</label>
+                    <input type="radio" value="pao2" name="tipo-pao">
+                </div>
+                <div>
+                    <label for="pao3">Pão de Brioche (R$6,00)</label>
+                    <input type="radio" value="pao3" name="tipo-pao">
+                </div>
+            </div>
+            <div>
+                <h2>Opções de Hambúrguer</h2>
+                <div>
+                    <label for="ham1">Hambúrguer de Picanha (R$13,00)</label>
+                    <input type="radio" value="ham1" name="tipo-ham"><br>
+                </div>
+                <div>
+                    <label for="ham2">Hambúrguer de Costela (R$10,00)</label>
+                    <input type="radio" value="ham2" name="tipo-ham"><br>
+                </div>
+                <div>
+                    <label for="ham3">Hambúrguer Vegano (R$12,00)</label>
+                    <input type="radio" value="ham3" name="tipo-ham"><br>
+                </div>
+            </div>
+            <div>
+                <h2>Opções de Salada</h2>
+                <div>
+                    <label for="sal1">Alface (R$1,50)</label>
+                    <input type="radio" value="sal1" name="tipo-sal"><br>
+                </div>
+                <div>
+                    <label for="sal2">Tomate (R$1,50)</label>
+                    <input type="radio" value="sal2" name="tipo-sal"><br>
+                </div>
+                <div>
+                    <label for="sal3">Sem salada (R$0,00)</label>
+                    <input type="radio" value="sal3" name="tipo-sal"><br>
+                </div>
+            </div>
+            <div>
+                <h2>Opções de Queijo </h2>
+                <div>
+                    <label for="que1">Mussarela (R$3,00)</label>
+                    <input type="radio" value="que1" name="tipo-que"><br>
+                </div>
+                <div>
+                    <label for="que2">Prato (R$3,00)</label>
+                    <input type="radio" value="que2" name="tipo-que"><br>
+                </div>
+                <div>
+                    <label for="que3">Cheddar (R$5,00)</label>
+                    <input type="radio" value="que3" name="tipo-que"><br>
+                </div>
+            </div>
+            <button type="button" onclick="ficha()">Enviar para cozinha</button>
+            <div id="div">Ficha</div>
+        </form>
+
+    </main>
+    <script src="java.js"></script>
+</body>
