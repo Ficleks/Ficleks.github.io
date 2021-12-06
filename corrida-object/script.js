@@ -1,121 +1,112 @@
-//Função carro popular
-
-function velPopular (){
-    function velMin() {
-        min = Math.ceil(110);
-        max = Math.floor(131);
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
-    function velMax() {
-        min = Math.ceil(180);
-        max = Math.floor(201);
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
-    function derrapagem() {
-        min = 3;
-        max = 5;
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
-    function derrapagemVelMin() {
-        der = derrapagem() / 100;
-        min = velMin() - (velMin() * der);
-        return min;
-    }
-    function derrapagemVelMax() {
-        der = derrapagem() / 100;
-        max = velMax() - (velMax() * der);
-        return max;
-    }
-    function velocidadeMedia() {
-        minM = derrapagemVelMin();
-        maxM = derrapagemVelMax();
-        return Math.floor(Math.random() * (maxM - minM)) + minM;
-    } 
-    return velocidadeMedia();
-}
-//Função carro sport
-
-function velSport (){
-    function velMin() {
-        min = Math.ceil(125);
-        max = Math.floor(146);
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
-    function velMax() {
-        min = Math.ceil(195);
-        max = Math.floor(216);
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
-    function derrapagem() {
-        min = 2;
-        max = 4;
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
-    function derrapagemVelMin() {
-        der = derrapagem() / 100;
-        min = velMin() - (velMin() * der);
-        return min;
-    }
-    function derrapagemVelMax() {
-        der = derrapagem() / 100;
-        max = velMax() - (velMax() * der);
-        return max;
-    }
-    function velocidadeMedia() {
-        minM = derrapagemVelMin();
-        maxM = derrapagemVelMax();
-        return Math.floor(Math.random() * (maxM - minM)) + minM;
-    } 
-    return velocidadeMedia();
-}
-//função carro superSport
-
-function velSuperSport (){
-    function velMin() {
-        min = Math.ceil(140);
-        max = Math.floor(161);
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
-    function velMax() {
-        min = Math.ceil(210);
-        max = Math.floor(231);
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
-    function derrapagem() {
-        min = 1;
-        max = 2.75;
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
-    function derrapagemVelMin() {
-        der = derrapagem() / 100;
-        min = velMin() - (velMin() * der);
-        return min;
-    }
-    function derrapagemVelMax() {
-        der = derrapagem() / 100;
-        max = velMax() - (velMax() * der);
-        return max;
-    }
-    function velocidadeMedia() {
-        minM = derrapagemVelMin();
-        maxM = derrapagemVelMax();
-        return Math.floor(Math.random() * (maxM - minM)) + minM;
-    } 
-    return velocidadeMedia();
-}
 //Objetos
 
-var carroPopular = {
+let carroPopular = {
     tipo: 'Popular',
-    velocidade: Number,
+    velocidade: function velPopular (){
+        function velMin() {
+            min = Math.ceil(110);
+            max = Math.floor(131);
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        function velMax() {
+            min = Math.ceil(180);
+            max = Math.floor(201);
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        function derrapagem() {
+            min = 3;
+            max = 5;
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        function derrapagemVelMin() {
+            der = derrapagem() / 100;
+            min = velMin() - (velMin() * der);
+            return min;
+        }
+        function derrapagemVelMax() {
+            der = derrapagem() / 100;
+            max = velMax() - (velMax() * der);
+            return max;
+        }
+        function velocidadeMedia() {
+            minM = derrapagemVelMin();
+            maxM = derrapagemVelMax();
+            return Math.floor(Math.random() * (maxM - minM)) + minM;
+        } 
+        return velocidadeMedia();
+    },
 };
-var carroSport = {
+let carroSport = {
     tipo: 'Sport',
-    velocidade: Number,
+    velocidade: function velSport (){
+        function velMin() {
+            min = Math.ceil(125);
+            max = Math.floor(146);
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        function velMax() {
+            min = Math.ceil(195);
+            max = Math.floor(216);
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        function derrapagem() {
+            min = 2;
+            max = 4;
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        function derrapagemVelMin() {
+            der = derrapagem() / 100;
+            min = velMin() - (velMin() * der);
+            return min;
+        }
+        function derrapagemVelMax() {
+            der = derrapagem() / 100;
+            max = velMax() - (velMax() * der);
+            return max;
+        }
+        function velocidadeMedia() {
+            minM = derrapagemVelMin();
+            maxM = derrapagemVelMax();
+            return Math.floor(Math.random() * (maxM - minM)) + minM;
+        } 
+        return velocidadeMedia();
+    },
 };
-var carroSuperSport = {
+let carroSuperSport = {
     tipo: 'SuperSport',
-    velocidade: Number,
+    velocidade: function velSuperSport (){
+        function velMin() {
+            min = Math.ceil(140);
+            max = Math.floor(161);
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        function velMax() {
+            min = Math.ceil(210);
+            max = Math.floor(231);
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        function derrapagem() {
+            min = 1;
+            max = 2.75;
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        function derrapagemVelMin() {
+            der = derrapagem() / 100;
+            min = velMin() - (velMin() * der);
+            return min;
+        }
+        function derrapagemVelMax() {
+            der = derrapagem() / 100;
+            max = velMax() - (velMax() * der);
+            return max;
+        }
+        function velocidadeMedia() {
+            minM = derrapagemVelMin();
+            maxM = derrapagemVelMax();
+            return Math.floor(Math.random() * (maxM - minM)) + minM;
+        } 
+        return velocidadeMedia();
+    },
 };
 //Corrida Rápida
 
@@ -131,17 +122,11 @@ function corrida1() {
                 return Math.floor(Math.random() * (max - min)) + min;
             }
             if (chance() <= 60) {
-                velPopular();
-                carroPopular.velocidade = velPopular();
-                return carroPopular.velocidade;
+                return carroPopular.velocidade();
             } else if (chance() > 60 && chance() <= 95) {
-                velSport();
-                carroSport.velocidade = velSport();
-                return carroSport.velocidade;
+                return carroSport.velocidade();
             } else {
-                velSuperSport();
-                carroSuperSport.velocidade = velSuperSport();
-                return carroSuperSport.velocidade;
+                return carroSuperSport.velocidade();
             }  
         }
         joao = escolha();
@@ -186,17 +171,11 @@ function corrida2() {
                 return Math.floor(Math.random() * (max - min)) + min;
             }
             if (chance() <= 60) {
-                velPopular();
-                carroPopular.velocidade = velPopular();
-                return carroPopular.velocidade;
+                return carroPopular.velocidade();
             } else if (chance() > 60 && chance() <= 95) {
-                velSport();
-                carroSport.velocidade = velSport();
-                return carroSport.velocidade;
+                return carroSport.velocidade();
             } else {
-                velSuperSport();
-                carroSuperSport.velocidade = velSuperSport();
-                return carroSuperSport.velocidade;
+                return carroSuperSport.velocidade();
             }  
         }
         joao = escolha();
@@ -241,16 +220,10 @@ function corrida3() {
                 return Math.floor(Math.random() * (max - min)) + min;
             }
             if (chance() <= 60) {
-                velPopular();
-                carroPopular.velocidade = velPopular();
                 return carroPopular.velocidade;
             } else if (chance() > 60 && chance() <= 95) {
-                velSport();
-                carroSport.velocidade = velSport();
                 return carroSport.velocidade;
             } else {
-                velSuperSport();
-                carroSuperSport.velocidade = velSuperSport();
                 return carroSuperSport.velocidade;
             }  
         }
