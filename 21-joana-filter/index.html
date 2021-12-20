@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joana Reduce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main">
+        <h1>Calculador de juros</h1>
+        <fieldset id="field">
+                <div>
+                    <label for="nome"><h2>Nome:</h2></label></br>
+                    <input type="text" id="nome" />
+                </div>
+                <div>
+                    <h2>Data de vencimento</h2>
+                    <input type="date" id="date"/>
+                </div>
+                <div>
+                    <h2>Valor da Compra</h2>
+                    <input type="number" placeholder="R$" id="value">
+                </div>
+                <div>
+                    <h2>Título</h2>
+                    <input type="text" placeholder="Pessoa Física ou Jurídica" id="titulo">
+                </div>
+                <button onclick="salvar()"><h2>Salvar</h2></button>
+    </fieldset>
+    </main>
+    <section>
+        <table id="table">
+            <tr>
+                <th>Nome</th>
+                <th>Data de Vencimento</th>
+                <th>Valor da Compra</th>
+                <th>Juros</th>
+                <th>Total</th>
+              </tr>
+              <table id="print"></table>
+        </table>
+        <button onclick="calcular()"><h2>Calcular Juros</h2></button>
+    </section>
+    <section>
+        <fieldset>
+            <h2>Filtro</h2>
+            <div>
+                <h2>Data de Início</h2>
+                <input type="date" id="inicio"/>
+            </div>
+            <div>
+                <h2>Data fim</h2>
+                <input type="date" id="fim"/>
+            </div>
+            <div>
+                <h2>Valor Mínimo</h2>
+                <input type="number" placeholder="R$" id="minimo">
+            </div>
+            <div>
+                <h2>Valor Máximo</h2>
+                <input type="number" placeholder="R$" id="maximo">
+            </div>
+            <button onclick="filtro()"><h2>Filtrar</h2></button>
+        </fieldset>
+    </section>
+    <section>
+        <table id="table">
+            <tr>
+                <th>Nome</th>
+                <th>Título</th>
+              </tr>
+              <table id="print2"></table>
+        </table>
+        <button onclick="tipo()"><h2>Cliente/Título</h2></button>
+    </section>
+    <section>
+        <table id="table">
+            <tr>
+                <th>Nome</th>
+                <th>Data de vencimento</th>
+              </tr>
+              <table id="print3"></table>
+        </table>
+        <button onclick="data()"><h2>Cliente/Data de Vencimento</h2></button>
+    </section>
+    <script src="script.js"></script>
+</body>
